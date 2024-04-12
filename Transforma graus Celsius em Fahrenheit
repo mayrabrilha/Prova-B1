@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+ { 
+    float celsius, fahrenheit;
+
+    printf("Vamos coverter graus Celsius(C) em Fahrenheit(F)\nDigite uma temperetura em Celsius:" );
+            scanf("%f", &celsius);  
+    
+    printf("A temperetura informada em graus Celsius foi:%.2f", celsius);
+    
+     fahrenheit = celsius * 9 / 5 + 32;
+    
+    printf("\nA temperetura em Fahrenheit é de: %.2f", fahrenheit);
+    
+}
